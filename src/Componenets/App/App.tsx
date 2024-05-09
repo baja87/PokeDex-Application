@@ -90,9 +90,9 @@ class App extends React.Component<any, AppState> {
     render(){
         return <div className="App">
             <ul>
-                <li><a href="https://pump.fun/board">Buy</a></li>
-                <li><a href="contact.asp">Twitter</a></li>
-                <li><a href="about.asp">Telegram</a></li>
+                <li><a href="https://pump.fun/board" target="_blank">Buy</a></li>
+                <li><a href="contact.asp" target="_blank">Twitter</a></li>
+                <li><a href="https://t.me/PokemonAwesome" target="_blank">Telegram</a></li>
             </ul>
             <h1> Pokemon Awesome </h1>
 
