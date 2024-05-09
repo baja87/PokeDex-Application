@@ -90,12 +90,11 @@ class App extends React.Component<any, AppState> {
     render(){
         return <div className="App">
             <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
+                <li><a href="https://pump.fun/board">Buy</a></li>
+                <li><a href="contact.asp">Twitter</a></li>
+                <li><a href="about.asp">Telegram</a></li>
             </ul>
-            <h1> PokeDex </h1>
+            <h1> Pokemon Awesome </h1>
 
             <PokeDex 
                 searchedPokemons={this.state.searchPokemons}
